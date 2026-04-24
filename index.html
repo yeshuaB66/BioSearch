@@ -758,7 +758,7 @@ Be scientifically rigorous but accessible. Use proper medical terminology while 
 
     } catch (err) {
       removeThinking();
-      appendMessage('assistant', `<div class="error-msg">⚠️ ${err.message || 'Something went wrong. Please try again.'}</div>`);
+      appendMessage('assistant', `<div class="error-msg"> ${err.message || 'Something went wrong. Please try again.'}</div>`);
     }
 
     isLoading = false;
